@@ -20,7 +20,7 @@ pip install numpy pandas matplotlib seaborn scikit-learn kmodes
 - **matplotlib & seaborn**: Data visualization.
 
 ## Cluster Insights
-![Customer Segmentation](customer3d.png)
+![Customer Segmentation](plots/customer3d.png)
 
 
 ## Conclusion
