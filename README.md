@@ -21,7 +21,7 @@ pip install numpy pandas matplotlib seaborn scikit-learn kmodes
 
 ## Data Sources
 The dataset used for this project comes from Kaggle, available at:
-🔗 Retail Analysis - Large Dataset
+🔗 Retail Analysis - Large Dataset https://www.kaggle.com/datasets/sahilprajapati143/retail-analysis-large-dataset
 
 ### Dataset Description:-
 This dataset contains retail customer data with a total size of 85MB. It includes detailed transactional records, customer demographics, and purchase behavior, making it suitable for customer segmentation, trend analysis, and business insights.
