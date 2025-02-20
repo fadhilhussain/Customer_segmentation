@@ -20,6 +20,8 @@ pip install numpy pandas matplotlib seaborn scikit-learn kmodes
 - **matplotlib & seaborn**: Data visualization.
 
 ## Cluster Insights
+![Customer Segmentation](customer3d.png)
+
 
 ## Conclusion
 This segmentation analysis provides valuable insights for strategic decision-making in retail businesses. By understanding different customer behaviors, companies can enhance their marketing, optimize inventory, and improve overall customer experience.
