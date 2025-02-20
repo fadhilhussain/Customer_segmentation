@@ -19,9 +19,50 @@ pip install numpy pandas matplotlib seaborn scikit-learn kmodes
 - **numpy**: Numerical computations.
 - **matplotlib & seaborn**: Data visualization.
 
+## Data Sources
+The dataset used for this project comes from Kaggle, available at:
+🔗 Retail Analysis - Large Dataset
+
+### Dataset Description:-
+This dataset contains retail customer data with a total size of 85MB. It includes detailed transactional records, customer demographics, and purchase behavior, making it suitable for customer segmentation, trend analysis, and business insights.
+
 ## Cluster Insights
 ![Customer Segmentation](plots/customer3d.png)
 
+## Optimal K value by elbow method
+![Customer Segmentation](plots/elbow.png)
+
+## Customer Segmentation Clusters
+
+### Cluster 0: Medium Spenders (Frequent Buyers)
+ - Represents 27% of customers
+ - Spending Pattern: Medium spenders
+ - Income Level: Low-income group
+ - Top Purchased Category: Electronics
+ - Age Distribution: Mixed-aged customers
+ - Buying Behavior: Frequent buyers with consistent purchases
+
+### Cluster 1: High Spenders (Irregular Buyers)
+ - Represents 31% of customers
+ - Spending Pattern: High spenders
+ - Income Level: Medium-income group
+ - Top Purchased Category: Electronics
+ - Age Distribution: Mixed-aged customers
+ - Buying Behavior: Not frequent buyers but make high-value purchases
+
+### Cluster 2: Budget Shoppers (Frequent Buyers)
+ - Represents 40% of customers
+ - Spending Pattern: Low spenders
+ - Income Level: Medium-income group
+ - Top Purchased Category: Grocery items
+ - Age Distribution: Mostly young customers
+ - Buying Behavior: Frequent buyers who shop within a budget
+
+## Cluster based on categories
+![Customer Segmentation](plots/customerCluster.png)
+
+## Customer's per Segment
+![Customer Segmentation](plots/customerNo.png)
 
 ## Conclusion
 This segmentation analysis provides valuable insights for strategic decision-making in retail businesses. By understanding different customer behaviors, companies can enhance their marketing, optimize inventory, and improve overall customer experience.
